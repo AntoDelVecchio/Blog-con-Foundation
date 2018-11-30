@@ -1,0 +1,31 @@
+body{
+background-image: url(../img/fondo.jpg);
+background-attachment: fixed;
+background-size: cover;
+}
+
+.contenedor-principal{
+	background-color: rgba(133, 146, 158, 0.4);
+}
+
+div[class*=columna]{
+	background-color: rgba(252, 228, 236, 0.5);
+}
+
+.encabezado{
+	color: white;
+}
+
+.slogan{
+	margin-left: 3rem;
+	text-align: right;
+	font-size: 20px;
+}
+
+.img-fav{
+	width: 30%;
+}
+
+div[class*=publicacion]{
+	background-color: rgba(227, 242, 253, 0.95);
+}

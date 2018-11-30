@@ -1,74 +1,203 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,user scalable=no">
-		<link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
-		<link rel="stylesheet" href="css/app.css" media="screen" charset="utf-8">
-		<link rel="stylesheet" href="css/home.css" media="screen" charset="utf-8">
-		<title>DetoxBlog</title>
-	</head>
-	<body>
-		<div class="row">
-			<div class="columns">
-				<!-- NOTE: Nombre y slogan (Esq. Sup. Izq.) -->
-			</div>
-
-			<div class="columns"> <!-- NOTE: Columna cuerpo. -->
-				<div class="columns"> <!-- NOTE: Columna costado izq. -->
-					<div class=""><!-- NOTE: Buscador -->
-
-					</div>
-					<div class="columns row"><!-- NOTE: Menú vertical -->
-						<div class="button-group">
-							<a href="#" class="button"></a>
-						</div>
-					</div>
-					<div class=""> <!-- NOTE: images fav. 2 filas 3 elementos en c/u -->
-						<div class=""> <!-- NOTE: imagen -->
-
-						</div>
-					</div>
-					<!-- NOTE:  Dos filas de 3 images. Historial. -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user scalable=no">
+	<link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="css/app.css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="css/home.css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<title>MundoDetox</title>
+</head>
+<body>
+	<div class="row contenedor-principal">
+		<div class="row align-left">
+			<div class="medium-12 columns">
+				<div class="medium-9 columns  encabezado">
+					<h1>Mundo Detox</h1> <br>
+					<h4 class="slogan">Un exterior saludable inicia desde el interior</h4> <br>
 				</div>
-				<div class="columns"> <!-- NOTE: columna central - Publicaciones -->
-	       <!-- NOTE: Primer Publi. -->
-					<div class="">
-						<div class="">	<!-- NOTE: Titulo -->
+			</div>
+		</div>
 
+
+		<div class="small-12 columns"> <!-- NOTE: Columna cuerpo. -->
+			<div class="row large-uncollapse"> <!-- NOTE: bloque central -->
+				<div class="medium-4 columns show-for-medium columna-costado"> <!-- NOTE: Columna costado izq. -->
+					<div class="medium-12 columns"> <!-- NOTE: Buscador -->
+						<div class="top-bar-left">
+							<ul class="menu">
+								<li><input type="search" placeholder="Buscar"></li>
+								<li><button type="search" class="button"><i class="fas fa-search"></i></button></li>
+							</ul>
 						</div>
-						<div class=""> <!-- NOTE: imagen y texto -->
+					</div> <!-- NOTE: cierre buscador -->
 
+					<div class="medium-12 columns"> <!-- NOTE: Menú vertical -->
+						<div class="columns row">
+							<div class="button-group vertical menu">
+								<a href="#" class="button">Inicio</a>
+								<a href="#" class="button">Batidos</a>
+								<a href="#" class="button">Platos</a>
+							</div>
 						</div>
-						<div class=""> <!-- NOTE: seccion de comentarios -->
+					</div> <!-- NOTE: cierre menu vertical -->
 
+					<div class="medium-12 columns"> <!-- NOTE: images fav. 2 filas 3 elementos en c/u -->
+						<h5>Favoritos:</h5>
+						<div class="row">
+							<div>  <!-- NOTE: imagen -->
+								<img src="img/fav1.jpg" class="thumbnail img-fav">
+								<img src="img/fav2.jpg" class="thumbnail img-fav">
+								<img src="img/fav3.jpg" class="thumbnail img-fav">
+								<img src="img/fav4.jpg" class="thumbnail img-fav">
+								<img src="img/fav5.jpg" class="thumbnail img-fav">
+								<img src="img/fav6.jpg" class="thumbnail img-fav">
+							</div>
 						</div>
 					</div>
-         <!-- NOTE: Segunda Publi -->
-					<div class="">
-						<div class="">	<!-- NOTE: Titulo -->
 
+					<div class="medium-12 columns"> <!-- NOTE: Historial. -->
+						<h5>Historial:</h5>
+						<ul>
+							<li><a href="#">Sopa de verduras con manzana y albahaca</a></li>
+							<li><a href="#">Lomitos de caballa con verduras salteadas</a></li>
+							<li><a href="#">Jugo de sandía y jengibre</a></li>
+							<li><a href="#">Arroz con batata y col</a></li>
+							<li><a href="#">Jugo verde de repollo, limón y pepino</a></li>
+						</ul>
+					</div> <!-- NOTE: cierre historial -->
+
+				</div> <!-- NOTE:  cierre columna izq. -->
+
+
+				<div class="medium-8 columns"> <!-- NOTE: columna central -->
+					<div class="callout publicacion-1"> <!-- NOTE: publicaciones -->
+						<div class="row large-uncollapse">
+							<div class="medium-12 columns">
+								<div class="">
+									<h2>Jugo verde de repollo, limón y pepino</h2>
+									<p>29 de Noviembre 2018</p>
+									<div class="secondary callout">
+										<img src="img/jugo.jpg" class="">
+									</div>
+									<p>Sin duda los jugos verdes son nutritivos, deliciosos y fáciles de preparar. Si has sentido que estás bajo de energía, esta bebida te recargará, además, de que al mismo tiempo te ayudará a eliminar toxinas.</p>
+									<h6>Ingredientes:</h6>
+									<ul>
+										<li>1 hoja de repollo;</li>
+										<li>Jugo de 1/2 limón;</li>
+										<li>1/3 de pepino sin cáscara;</li>
+										<li>1 manzana roja sin cáscara;</li>
+										<li>150 ml de agua de coco.</li>
+									</ul>
+									<h6>Modo de preparación:</h6>
+									<p>Licuar todos los ingredientes, colar y beber. Es preferible tomarlo sin añadirle azúcar o edulcorantes. </p>
+								</div>
+								<hr>
+								<div class="row columns">
+									<label>Escribe un comentario:
+										<textarea name="comentario"></textarea>
+										<button type="submit" name="publicar" class="button">Publicar<i class="fas fa-pen"></i></button>
+									</label>
+								</div>
+								<div class="row callout">
+									<div class="medium-2 columns">
+										<img src="img/mujer.png" alt="">
+									</div>
+									<div class="medium-10 columns">
+										<p>Lucrecia_: Excelente publicación! Lo voy a intentar.</p>
+									</div>
+								</div>
+								<div class="row callout">
+									<div class="medium-2 columns">
+										<img src="img/hombre.png" alt="">
+									</div>
+									<div class="medium-10 columns">
+										<p>JuanPedro: Lo intenté! Es riquísimo! Gracias. :)</p>
+									</div>
+								</div>
+								<div class="row callout">
+									<div class="medium-2 columns">
+										<img src="img/hombre.png" alt="">
+									</div>
+									<div class="medium-10 columns">
+										<p>Lucas90: Podrías subir otras combinaciones, por favor? Este me quedó super.</p>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class=""> <!-- NOTE: imagen y texto -->
 
+					</div> <!-- NOTE: cierre publicación -->
+
+				</div> <!-- NOTE: cierre column central -->
+
+				<div class="medium-8 columns medium-offset-4"> <!-- NOTE: columna central -->
+					<div class="callout publicacion-2"> <!-- NOTE: publicaciones -->
+						<div class="row large-uncollapse">
+							<div class="medium-12 columns">
+								<div class="">
+									<h2>Pechuga de pavo al horno</h2>
+									<p>15 de Ostubre 2018</p>
+									<div class="secondary callout">
+										<img src="img/pavo.jpg" class="">
+									</div>
+									<h6>Ingredientes:</h6>
+									<ul>
+										<li>2 pechugas de pavo;</li>
+										<li>300 g de zanahorias;</li>
+										<li>200 g de patatas;</li>
+										<li>2 naranjas;</li>
+										<li>1 cucharada de pimienta negra en grano;</li>
+										<li>Aceite de oliva;</li>
+										<li>3 clavos de especia;</li>
+										<li>Perejil;</li>
+										<li>4 ajos;</li>
+										<li>Sal.</li>
+									</ul>
+									<h6>Modo de preparación:</h6>
+									<p>Precalentar el horno a 180 grados. Hacer jugo de las naranjas. En un almirez, poner la pimienta en grano, un poco de sal, los clavos y un ajo pelado. Machacar bien e ir añadiendo poco a poco cuatro cucharadas de aceite de oliva.</p>
+									<p>Mover hasta conseguir una mezcla homogénea. Untar con la mezcla la pechuga de pavo utilizando las manos para que se impregne bien. Poner en la bandeja de horno la pechuga de pavo, tres cucharadas de aceite de oliva y el jugo.</p>
+									<p>A los 20 minutos de horno, meter las zanahorias, los ajos y las patatas. Mantener en el horno otra media hora o hasta que la pechuga esté dorada. Añadir un poco de perejil picado y servir caliente.</p>
+								</div>
+								<hr>
+								<div class="row columns">
+									<label>Escribe un comentario:
+										<textarea name="comentario"></textarea>
+										<button type="submit" name="publicar" class="button">Publicar<i class="fas fa-pen"></i></button>
+									</label>
+								</div>
+								<div class="row callout">
+									<div class="medium-2 columns">
+										<img src="img/hombre.png" alt="">
+									</div>
+									<div class="medium-10 columns">
+										<p>JuanPedro: Que gran idea!! Lo probaré.</p>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class=""> <!-- NOTE: seccion de comentarios -->
 
-						</div>
-					</div>
+					</div> <!-- NOTE: cierre publicación -->
 
-				</div> <!-- NOTE: cierre div Publicaciones -->
-				
-			</div> <!-- NOTE: Cierre Div CUERPO -->
-
-		</div> <!-- NOTE: Cierre página -->
+				</div> </div> <!-- NOTE: cierre column central -->
 
 
+			</div> <!-- NOTE: cierre row bloque central-->
 
 
-		<script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-	</body>
+		</div> <!-- NOTE: Cierre Div CUERPO -->
+
+
+	</div> <!-- NOTE: Cierre página -->
+
+
+
+
+
+ <script src="js/vendor/jquery.js"></script>
+ <script src="js/vendor/what-input.js"></script>
+ <script src="js/vendor/foundation.min.js"></script>
+ <script src="js/app.js"></script>
+
+</body>
 </html>
