@@ -4,15 +4,22 @@ background-attachment: fixed;
 background-size: cover;
 }
 
+
+
+div[class*=publicacion]{
+	background-color: rgba(227, 242, 253, 0.95);
+}
+
 .contenedor-principal{
 	background-color: rgba(133, 146, 158, 0.4);
 }
 
-div[class*=columna]{
-	background-color: rgba(252, 228, 236, 0.5);
+.contenedor-cuerpo{
+	margin-top: 3rem;
 }
 
 .encabezado{
+	border-right: 1px solid #ffffff;
 	color: white;
 }
 
@@ -22,10 +29,52 @@ div[class*=columna]{
 	font-size: 20px;
 }
 
+.columna-secundaria{
+	border-radius: 3px;
+	background-color: rgba(252, 228, 236, 0.5);
+}
+
+.buscador{
+	margin-top: 1rem;
+}
+
+.menu-vertical{
+	margin-top: 1rem;
+}
+
+.columna-favoritos{
+	margin-top: 3rem;
+}
+
 .img-fav{
+	margin: 0.2rem;
 	width: 30%;
 }
 
-div[class*=publicacion]{
-	background-color: rgba(227, 242, 253, 0.95);
+.columna-historial{
+	margin-top: 2rem;
+}
+
+.img-publicacion{
+	padding: 0.5rem;
+}
+
+.boton-comentario{
+	float: right;
+}
+
+.bloque-comentario{
+		margin-top: 4.5rem;
+}
+
+.comentario{
+	margin: 0.5rem;
+	background-color: rgba(144, 202, 249, 0.5);
+	border-radius: 15px;
+}
+
+.img-comentario{
+	margin: 0;
+	float: left;
+	width: 45%;
 }

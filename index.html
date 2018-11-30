@@ -13,27 +13,26 @@
 	<div class="row contenedor-principal">
 		<div class="row align-left">
 			<div class="medium-12 columns">
-				<div class="medium-9 columns  encabezado">
+				<div class="medium-9 columns encabezado">
 					<h1>Mundo Detox</h1> <br>
 					<h4 class="slogan">Un exterior saludable inicia desde el interior</h4> <br>
 				</div>
 			</div>
 		</div>
 
-
-		<div class="small-12 columns"> <!-- NOTE: Columna cuerpo. -->
+		<div class="small-12 columns contenedor-cuerpo"> <!-- NOTE: Columna cuerpo. -->
 			<div class="row large-uncollapse"> <!-- NOTE: bloque central -->
-				<div class="medium-4 columns show-for-medium columna-costado"> <!-- NOTE: Columna costado izq. -->
-					<div class="medium-12 columns"> <!-- NOTE: Buscador -->
+				<div class="medium-4 columns show-for-medium columna-secundaria"> <!-- NOTE: Columna costado izq. -->
+					<div class="medium-12 columns buscador"> <!-- NOTE: Buscador -->
 						<div class="top-bar-left">
-							<ul class="menu">
+							<ul class="menu align-center">
 								<li><input type="search" placeholder="Buscar"></li>
-								<li><button type="search" class="button"><i class="fas fa-search"></i></button></li>
+								<li><button type="search" class="button large"><i class="fas fa-search"></i></button></li>
 							</ul>
 						</div>
 					</div> <!-- NOTE: cierre buscador -->
 
-					<div class="medium-12 columns"> <!-- NOTE: Menú vertical -->
+					<div class="medium-12 columns menu-vertical"> <!-- NOTE: Menú vertical -->
 						<div class="columns row">
 							<div class="button-group vertical menu">
 								<a href="#" class="button">Inicio</a>
@@ -43,8 +42,10 @@
 						</div>
 					</div> <!-- NOTE: cierre menu vertical -->
 
-					<div class="medium-12 columns"> <!-- NOTE: images fav. 2 filas 3 elementos en c/u -->
-						<h5>Favoritos:</h5>
+					<div class="medium-12 columns columna-favoritos"> <!-- NOTE: images fav. 2 filas 3 elementos en c/u -->
+						<div class="row">
+							<h6>Favoritos:</h6>
+						</div>
 						<div class="row">
 							<div>  <!-- NOTE: imagen -->
 								<img src="img/fav1.jpg" class="thumbnail img-fav">
@@ -57,8 +58,10 @@
 						</div>
 					</div>
 
-					<div class="medium-12 columns"> <!-- NOTE: Historial. -->
-						<h5>Historial:</h5>
+					<div class="medium-12 columns columna-historial"> <!-- NOTE: Historial. -->
+						<div class="row">
+							<h6>Historial:</h6>
+						</div>
 						<ul>
 							<li><a href="#">Sopa de verduras con manzana y albahaca</a></li>
 							<li><a href="#">Lomitos de caballa con verduras salteadas</a></li>
@@ -75,10 +78,10 @@
 					<div class="callout publicacion-1"> <!-- NOTE: publicaciones -->
 						<div class="row large-uncollapse">
 							<div class="medium-12 columns">
-								<div class="">
+								<div>
 									<h2>Jugo verde de repollo, limón y pepino</h2>
 									<p>29 de Noviembre 2018</p>
-									<div class="secondary callout">
+									<div class="secondary callout img-publicacion">
 										<img src="img/jugo.jpg" class="">
 									</div>
 									<p>Sin duda los jugos verdes son nutritivos, deliciosos y fáciles de preparar. Si has sentido que estás bajo de energía, esta bebida te recargará, además, de que al mismo tiempo te ayudará a eliminar toxinas.</p>
@@ -96,32 +99,34 @@
 								<hr>
 								<div class="row columns">
 									<label>Escribe un comentario:
-										<textarea name="comentario"></textarea>
-										<button type="submit" name="publicar" class="button">Publicar<i class="fas fa-pen"></i></button>
+										<textarea name="comentario" rows="3"></textarea>
+										<button type="submit" name="publicar" class="button boton-comentario">Publicar<i class="fas fa-pen"></i></button>
 									</label>
 								</div>
-								<div class="row callout">
-									<div class="medium-2 columns">
-										<img src="img/mujer.png" alt="">
+								<div class=" bloque-comentario">
+									<div class="row callout columns comentario">
+										<div class="medium-3 columns">
+											<img src="img/mujer.png" class=" img-comentario">
+										</div>
+										<div class="medium-9 columns">
+											<p>Lucrecia_: Excelente publicación! Lo voy a intentar.</p>
+										</div>
 									</div>
-									<div class="medium-10 columns">
-										<p>Lucrecia_: Excelente publicación! Lo voy a intentar.</p>
+									<div class="row callout columns comentario">
+										<div class="medium-3 columns">
+											<img src="img/hombre.png" class=" img-comentario">
+										</div>
+										<div class="medium-9 columns">
+											<p>JuanPedro: Lo intenté! Es riquísimo! Gracias. :)</p>
+										</div>
 									</div>
-								</div>
-								<div class="row callout">
-									<div class="medium-2 columns">
-										<img src="img/hombre.png" alt="">
-									</div>
-									<div class="medium-10 columns">
-										<p>JuanPedro: Lo intenté! Es riquísimo! Gracias. :)</p>
-									</div>
-								</div>
-								<div class="row callout">
-									<div class="medium-2 columns">
-										<img src="img/hombre.png" alt="">
-									</div>
-									<div class="medium-10 columns">
-										<p>Lucas90: Podrías subir otras combinaciones, por favor? Este me quedó super.</p>
+									<div class="row callout columns comentario">
+										<div class="medium-3 columns">
+											<img src="img/hombre.png" class=" img-comentario">
+										</div>
+										<div class="medium-9 columns">
+											<p>Lucas90: Podrías subir otras combinaciones, por favor? Este me quedó super.</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -135,10 +140,10 @@
 					<div class="callout publicacion-2"> <!-- NOTE: publicaciones -->
 						<div class="row large-uncollapse">
 							<div class="medium-12 columns">
-								<div class="">
+								<div>
 									<h2>Pechuga de pavo al horno</h2>
 									<p>15 de Ostubre 2018</p>
-									<div class="secondary callout">
+									<div class="secondary callout img-publicacion">
 										<img src="img/pavo.jpg" class="">
 									</div>
 									<h6>Ingredientes:</h6>
@@ -162,16 +167,18 @@
 								<hr>
 								<div class="row columns">
 									<label>Escribe un comentario:
-										<textarea name="comentario"></textarea>
-										<button type="submit" name="publicar" class="button">Publicar<i class="fas fa-pen"></i></button>
+										<textarea name="comentario" rows="3"></textarea>
+										<button type="submit" name="publicar" class="button boton-comentario">Publicar<i class="fas fa-pen"></i></button>
 									</label>
 								</div>
-								<div class="row callout">
-									<div class="medium-2 columns">
-										<img src="img/hombre.png" alt="">
-									</div>
-									<div class="medium-10 columns">
-										<p>JuanPedro: Que gran idea!! Lo probaré.</p>
+								<div class="bloque-comentario">
+									<div class="row callout columns comentario">
+										<div class="medium-3 columns">
+											<img src="img/hombre.png" class="img-comentario">
+										</div>
+										<div class="medium-9 columns texto-comentario">
+											<p>JuanPedro: Que gran idea!! Lo probaré.</p>
+										</div>
 									</div>
 								</div>
 							</div>
