@@ -4,9 +4,7 @@ background-attachment: fixed;
 background-size: cover;
 }
 
-
-
-div[class*=publicacion]{
+div[id*=publicacion]{
 	background-color: rgba(227, 242, 253, 0.95);
 }
 
@@ -15,16 +13,14 @@ div[class*=publicacion]{
 }
 
 .contenedor-cuerpo{
-	margin-top: 3rem;
+	border-top: 1px solid #ffffff;
+	margin-top: 2rem;
 }
 
 .encabezado{
+	margin-top: 0.5rem;
 	border-right: 1px solid #ffffff;
 	color: white;
-}
-
-.contenedor-encabezado{
-	border-bottom: 1px solid #ffffff;
 }
 
 .slogan{
@@ -33,7 +29,13 @@ div[class*=publicacion]{
 	font-size: 20px;
 }
 
-.columna-secundaria{
+#cuerpo{
+	margin-left: 0.1rem;
+	margin-top: 1rem;
+}
+
+#columna-secundaria{
+	max-height: 50rem;
 	border-radius: 3px;
 	background-color: rgba(252, 228, 236, 0.5);
 }
@@ -59,6 +61,15 @@ div[class*=publicacion]{
 	margin-top: 2rem;
 }
 
+#historial{
+	margin-left: -1rem;
+}
+
+#publicacion-2{
+	margin-right: -0.9rem;
+	margin-left: 0.2rem;
+}
+
 .img-publicacion{
 	padding: 0.5rem;
 }
@@ -67,12 +78,8 @@ div[class*=publicacion]{
 	float: right;
 }
 
-#avatar{
-	margin: inherit;
-}
-
 #comentario{
-	border: 1px solid #ffffff;
+	border: 1px solid #ABB2B9;
 	width: 95%;
 	float: left !important;
 	margin: -1% 0% 2% 3%;
@@ -82,4 +89,27 @@ div[class*=publicacion]{
 
 #text-comentario{
 	margin-top: 2%;
+}
+
+@media(max-width: 600px) {
+	.contenedor-cuerpo{
+		border-top: 1px solid rgba(133, 146, 158, 0.4);
+		margin-top: 2rem;
+	}
+	#publicacion-1{
+		margin-top: -3.5rem !important;
+		margin-left: -1.6rem !important;
+		margin-right: -0.5rem !important;
+	}
+
+	#publicacion-2{
+		margin-left: -1.5rem !important;
+		margin-right: -1.5rem !important;
+	}
+
+	#avatar{
+		margin-top: 1rem;
+		max-width: 35px;
+	}
+
 }

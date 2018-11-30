@@ -11,18 +11,18 @@
 </head>
 <body>
 	<div class="row contenedor-principal">
-		<div class="row">
+		<div class="row hide-for-small-only">
 			<div class="medium-12 columns ">
 				<div class="medium-9 columns align-left encabezado">
 					<h1>Mundo Detox</h1> <br>
-					<h4 class="slogan">Un exterior saludable inicia desde el interior</h4> <br>
+					<h4 class="slogan">Un exterior saludable inicia desde el interior</h4>
 				</div>
 			</div>
 		</div>
 
-		<div class="small-12 columns contenedor-cuerpo"> <!-- NOTE: Columna cuerpo. -->
-			<div class="row large-uncollapse"> <!-- NOTE: bloque central -->
-				<div class="medium-4 columns show-for-medium columna-secundaria"> <!-- NOTE: Columna costado izq. -->
+		<div class="large-12 medium-12 small-12 columns contenedor-cuerpo"> <!-- NOTE: Columna cuerpo. -->
+			<div class="row large-uncollapse unstack" id="cuerpo"> <!-- NOTE: bloque central -->
+				<div class="large-4 medium-4 hide-for-small-only columns" id="columna-secundaria"> <!-- NOTE: Columna costado izq. -->
 					<div class="medium-12 columns buscador"> <!-- NOTE: Buscador -->
 						<div class="top-bar-left">
 							<ul class="menu align-center">
@@ -62,74 +62,74 @@
 						<div class="row">
 							<h6>Historial:</h6>
 						</div>
-						<ul>
-							<li><a href="#">Sopa de verduras con manzana y albahaca</a></li>
-							<li><a href="#">Lomitos de caballa con verduras salteadas</a></li>
-							<li><a href="#">Jugo de sandía y jengibre</a></li>
-							<li><a href="#">Arroz con batata y col</a></li>
-							<li><a href="#">Jugo verde de repollo, limón y pepino</a></li>
-						</ul>
+						<div class="columns row">
+							<div class="menu" id="historial">
+								<li><a href="#">Sopa de verduras con manzana y albahaca</a></li>
+								<li><a href="#">Lomitos de caballa con verduras salteadas</a></li>
+								<li><a href="#">Jugo de sandía y jengibre</a></li>
+								<li><a href="#">Arroz con batata y col</a></li>
+								<li><a href="#">Jugo verde de repollo, limón y pepino</a></li>
+							</div>
+						</div>
 					</div> <!-- NOTE: cierre historial -->
 
 				</div> <!-- NOTE:  cierre columna izq. -->
 
 
-				<div class="medium-8 columns"> <!-- NOTE: columna central -->
-					<div class="callout publicacion-1"> <!-- NOTE: publicaciones -->
+				<div class="large-8 medium-8 small-12 columns"> <!-- NOTE: columna central -->
+					<div class="callout" id="publicacion-1"> <!-- NOTE: publicaciones -->
 						<div class="row large-uncollapse">
-							<div class="medium-12 columns">
-								<div>
-									<h2>Jugo verde de repollo, limón y pepino</h2>
-									<p>29 de Noviembre 2018</p>
-									<div class="secondary callout img-publicacion">
-										<img src="img/jugo.jpg" class="">
-									</div>
-									<p>Sin duda los jugos verdes son nutritivos, deliciosos y fáciles de preparar. Si has sentido que estás bajo de energía, esta bebida te recargará, además, de que al mismo tiempo te ayudará a eliminar toxinas.</p>
-									<h6>Ingredientes:</h6>
-									<ul>
-										<li>1 hoja de repollo;</li>
-										<li>Jugo de 1/2 limón;</li>
-										<li>1/3 de pepino sin cáscara;</li>
-										<li>1 manzana roja sin cáscara;</li>
-										<li>150 ml de agua de coco.</li>
-									</ul>
-									<h6>Modo de preparación:</h6>
-									<p>Licuar todos los ingredientes, colar y beber. Es preferible tomarlo sin añadirle azúcar o edulcorantes. </p>
+							<div class="large-12 medium-12 small-12 columns">
+								<h2>Jugo verde de repollo, limón y pepino</h2>
+								<p>29 de Noviembre 2018</p>
+								<div class="secondary callout img-publicacion">
+									<img src="img/jugo.jpg" class="">
 								</div>
+								<p>Sin duda los jugos verdes son nutritivos, deliciosos y fáciles de preparar. Si has sentido que estás bajo de energía, esta bebida te recargará, además, de que al mismo tiempo te ayudará a eliminar toxinas.</p>
+								<h6><b>Ingredientes:</b></h6>
+								<ul>
+									<li>1 hoja de repollo;</li>
+									<li>Jugo de 1/2 limón;</li>
+									<li>1/3 de pepino sin cáscara;</li>
+									<li>1 manzana roja sin cáscara;</li>
+									<li>150 ml de agua de coco.</li>
+								</ul>
+								<h6><b>Modo de preparación:</b></h6>
+								<p>Licuar todos los ingredientes, colar y beber. Es preferible tomarlo sin añadirle azúcar o edulcorantes. </p>
 								<hr>
 								<div class="row columns">
-									<label>Escribe un comentario:
+									<label><b>Escribe un comentario:</b>
 										<textarea name="comentario" rows="3"></textarea>
 										<button type="submit" name="publicar" class="button boton-comentario">Publicar<i class="fas fa-pen"></i></button>
 									</label>
 								</div>
 								<div class="columns" id="comentario">
 									<div class="row">
-										<div class="medium-2 columns">
+										<div class="large-2 medium-2 small-2 columns">
 											<img src="img/hombre.png" alt="Imagen Avatar" id="avatar">
 										</div>
-										<div class="medium-10 columns ">
-											<p class="text-left" id="text-comentario">JuanPedro: Excelente publicación! Lo voy a intentar.</p>
+										<div class="large-10 medium-10 small-10 columns ">
+											<p class="text-left" id="text-comentario"><b>JuanPedro:</b> Excelente publicación! Lo voy a intentar.</p>
 										</div>
 									</div>
 								</div>
 								<div class="column" id="comentario">
 									<div class="row">
-										<div class="medium-2 columns">
+										<div class="large-2 medium-2 small-2 columns">
 											<img src="img/mujer.png" alt="Imagen Avatar" id="avatar">
 										</div>
-										<div class="medium-10 columns">
-											<p class="text-left" id="text-comentario">Lucrecia_: Lo intenté! Es riquísimo! Gracias. :)</p>
+										<div class="large-10 medium-10 small-10 columns">
+											<p class="text-left" id="text-comentario"><b>Lucrecia_:</b> Lo intenté! Es riquísimo! Gracias. :)</p>
 										</div>
 									</div>
 								</div>
 								<div class="columns" id="comentario">
 									<div class="row">
-										<div class="medium-2 columns">
+										<div class="large-2 medium-2 small-2 columns">
 											<img src="img/mujer.png" alt="Imagen Avatar" id="avatar">
 										</div>
-										<div class="medium-10 columns">
-											<p class="text-left" id="text-comentario">Samantha17: Podrías subir otras combinaciones, por favor? Este me quedó super.</p>
+										<div class="large-10 medium-10 small-10 columns">
+											<p class="text-left" id="text-comentario"><b>Samantha17:</b> Podrías subir otras combinaciones, por favor? Este me quedó super.</p>
 										</div>
 									</div>
 								</div>
@@ -142,17 +142,17 @@
 
 				</div> <!-- NOTE: cierre column central -->
 
-				<div class="medium-8 columns medium-offset-4"> <!-- NOTE: columna central -->
-					<div class="callout publicacion-2"> <!-- NOTE: publicaciones -->
+				<div class="large-8 medium-8 small-12 columns medium-offset-4"> <!-- NOTE: columna central -->
+					<div class="callout" id="publicacion-2"> <!-- NOTE: publicaciones -->
 						<div class="row large-uncollapse">
-							<div class="medium-12 columns">
+							<div class="large-12 medium-12 small-12 columns">
 								<div>
 									<h2>Pechuga de pavo al horno</h2>
 									<p>15 de Ostubre 2018</p>
 									<div class="secondary callout img-publicacion">
 										<img src="img/pavo.jpg" class="">
 									</div>
-									<h6>Ingredientes:</h6>
+									<h6><b>Ingredientes:</b></h6>
 									<ul>
 										<li>2 pechugas de pavo;</li>
 										<li>300 g de zanahorias;</li>
@@ -165,25 +165,25 @@
 										<li>4 ajos;</li>
 										<li>Sal.</li>
 									</ul>
-									<h6>Modo de preparación:</h6>
+									<h6><b>Modo de preparación:</b></h6>
 									<p>Precalentar el horno a 180 grados. Hacer jugo de las naranjas. En un almirez, poner la pimienta en grano, un poco de sal, los clavos y un ajo pelado. Machacar bien e ir añadiendo poco a poco cuatro cucharadas de aceite de oliva.</p>
 									<p>Mover hasta conseguir una mezcla homogénea. Untar con la mezcla la pechuga de pavo utilizando las manos para que se impregne bien. Poner en la bandeja de horno la pechuga de pavo, tres cucharadas de aceite de oliva y el jugo.</p>
 									<p>A los 20 minutos de horno, meter las zanahorias, los ajos y las patatas. Mantener en el horno otra media hora o hasta que la pechuga esté dorada. Añadir un poco de perejil picado y servir caliente.</p>
 								</div>
 								<hr>
 								<div class="row columns">
-									<label>Escribe un comentario:
+									<label><b>Escribe un comentario:</b>
 										<textarea name="comentario" rows="3"></textarea>
 										<button type="submit" name="publicar" class="button boton-comentario">Publicar<i class="fas fa-pen"></i></button>
 									</label>
 								</div>
 								<div class="columns" id="comentario">
 									<div class="row">
-										<div class="medium-2 columns">
+										<div class="large-2 medium-2 small-2 columns">
 											<img src="img/hombre.png" alt="Imagen Avatar" id="avatar">
 										</div>
-										<div class="medium-10 columns">
-											<p class="text-left" id="text-comentario">Lucas_03:Que gran idea!! Lo probaré.</p>
+										<div class="large-10 medium-10 small-10 columns">
+											<p class="text-left" id="text-comentario"><b>Lucas_03:</b> Que gran idea!! Lo probaré.</p>
 										</div>
 									</div>
 								</div>
