@@ -23,6 +23,10 @@ div[class*=publicacion]{
 	color: white;
 }
 
+.contenedor-encabezado{
+	border-bottom: 1px solid #ffffff;
+}
+
 .slogan{
 	margin-left: 3rem;
 	text-align: right;
@@ -63,18 +67,19 @@ div[class*=publicacion]{
 	float: right;
 }
 
-.bloque-comentario{
-		margin-top: 4.5rem;
+#avatar{
+	margin: inherit;
 }
 
-.comentario{
-	margin: 0.5rem;
+#comentario{
+	border: 1px solid #ffffff;
+	width: 95%;
+	float: left !important;
+	margin: -1% 0% 2% 3%;
 	background-color: rgba(144, 202, 249, 0.5);
-	border-radius: 15px;
+	border-radius: 5px;
 }
 
-.img-comentario{
-	margin: 0;
-	float: left;
-	width: 45%;
+#text-comentario{
+	margin-top: 2%;
 }
